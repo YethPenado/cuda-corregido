@@ -1,0 +1,49 @@
+.header{
+  background-color: $backgroundpurple;
+}
+
+.logo-menu{
+  padding-top: 55px;
+}
+
+#hamburguer{
+  display: none;
+  float: right;
+}
+
+#menu{
+  float: right;
+  li{
+    padding: 10px 17px;
+    border-radius: 10%;
+    display: inline-block;
+  }
+  li:hover{
+    background-color: $header-menu;
+  }
+  li+li{
+    margin-left: 10px;
+  }
+  a{
+    text-transform: uppercase;
+  }
+}
+
+.slogan{
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #f7f3ea;
+}
+
+.slogan-text{
+  padding-top: 145px;
+  padding-bottom: 60px;
+}
+
+.button{
+  @include button;
+  background-color: #eb7d4b;
+  border-bottom: 4px solid #c86a40;
+}

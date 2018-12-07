@@ -1,0 +1,40 @@
+.content{
+  background-color: $aquamarine;
+  .line{
+    background-color: $dark-aquamarine;
+    margin: 22px auto;
+  }
+  h2{
+    padding-top: 120px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+.content-services{
+  text-align: center;
+}
+
+.service{
+  max-width: 260px;
+  width: 23.6%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 125px;
+  img{
+    max-width: 190px;
+  }
+  h3{
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+  p{
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.service+.service{
+  padding-left: 1%;
+}

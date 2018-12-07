@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 <head>
 	<meta charset="UTF-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,109 @@
 </head>
 
 <body>
-  
+  <div class="container"> <!--DIV container (envuelve toda la página)-->
+		
+		<div class="header"> <!--DIV HEADER (Sección morada)-->
+			<div class="spacing"> <!--Espaciados a los lados-->
+				<div class="logo-menu"> <!--Div que envuelve el logo y el menú-->
+					<img src="img/logo.png" class="logo" alt="logo">
+					<img src="img/hamburger.png" id="hamburguer" alt="Menú hamburguesa">
+					<ul id="menu">
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">work</a></li>
+						<li><a href="#">blog</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</div> <!--END logo y menú-->
+				<div class="slogan-text"> <!--Texto-->
+					<p class="slogan">Hi there! We are the new kids on the block</p>
+					<p class="slogan">and we build awesome websites and mobile apps.</p>
+				</div> <!--END Texto-->
+				<div class="center"> <!--CENTRADO Div que centra elementos en la página-->
+					<div class="buttons"> <!--Contiene el botón naranja-->
+						<a href="#" class="button">WORK WITH US!</a>
+					</div> <!--END contenedor de botón naranja-->
+				</div> <!--END Centrado-->
+			</div> <!--END Espaciado-->
+		</div> <!--END Header-->
+
+		<div class="content"> <!--DIV CONTENT (Sección verde)-->
+			<div class="spacing"> <!--Espaciados a los lados-->
+				<div class="center"> <!--CENTRADO Div que centra elementos en la página-->
+					<h2>SERVICES WE PROVIDE</h2>
+					<div class="line"></div>
+					<p class="firstp">We are working with both individuals and businesses from all over the globe </p>
+					<p class="lastp">to create awesome websites and applications.</p>
+				</div> <!--END Centrado-->
+				<div class="content-services"> <!--Div que contiene las imágenes-->
+					<div class="service">
+						<img src="img/flag.png" alt="Flag image">
+						<h3>BRANDING</h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+					</div>
+					<div class="service">
+						<img src="img/pen.png" alt="Pen image">
+						<h3>DESING</h3>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem vero eos et accusamus</p>
+					</div>
+					<div class="service">
+						<img src="img/gears.png" alt="Gears image">
+						<h3>DEVELOPMENT</h3>
+						<p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium</p>
+					</div>
+					<div class="service">
+						<img src="img/rocket.png" alt="Rocket image">
+						<h3>ROCKET SCIENCE</h3>
+						<p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore</p>
+					</div>
+				</div> <!--END Imágenes-->
+			</div> <!--END Espaciados-->
+		</div> <!--END CONTENT (Sección verde)-->
+
+		<div class="footer"> <!--DIV FOOTER (Sección azul)-->
+			<div class="spacing"> <!--Espaciados a los lados-->
+				<div class="center"> <!--CENTRADO Div que centra elementos en la página-->
+					<h2>GET IN TOUCH</h2>
+					<div class="line"></div>
+					<p class="firstp">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+				</div> <!--END Centrado-->
+
+				<form action="" id="form"> <!--FORMULARIO-->
+					<div class="containerForm"> <!--Your Name-->
+						<label for="your_name">Your Name<span> *</span></label>
+						<input class="background" type="text" name="your_name">
+					</div> <!--END Your Name-->
+					<div class="containerForm left"> <!--Your Email-->
+						<label for="Your_Email">Your Email<span> *</span></label>
+						<input class="background" type="text" name="Your_Email">
+					</div> <!--END Your Email-->
+					<label for="Your_Message">Your Message<span> *</span></label>
+					<textarea class="background" name="Your_Message"></textarea>
+					<div class="center"> <!--CENTRADO Div que centra elementos en la página-->
+						<div class="buttons"> <!--Div del botón Send-->
+							<a href="#" class="button">SEND MESSAGE</a>
+						</div><!--END botón Send-->
+					</div> <!--END Centrado-->
+				</form> <!--END Formulario-->
+			</div> <!--END ESPACIADO-->
+
+			<div class="footer-list"> <!--DIV MENÚ FOOTER-->
+				<div class="menuFooter"> <!--Div contenedor del menú-->
+					<ul>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Google+</a></li>
+						<li><a href="#">LinkedIn </a></li>
+						<li><a href="#">Behance </a></li>
+						<li><a href="#">Dribbble </a></li>
+						<li><a href="#">GitHub</a></li>
+					</ul>
+				</div> <!--END menú-->
+			</div> <!--END Menú Footer-->
+		</div> <!--END Footer-->
+
+	</div> <!--END container-->
   
   <script src="js/main.js"></script>
 </body>

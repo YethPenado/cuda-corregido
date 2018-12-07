@@ -1,0 +1,77 @@
+.footer{
+  background-color: $blue;
+  .line{
+    background-color: $dark-blue;
+    margin: 22px auto;
+  }
+  h2{
+    padding-top: 120px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .button{
+    @include button;
+    background-color: $footer-button;
+    border-bottom: 4px solid $blue-line;
+    margin-top: 50px;
+  }
+
+}
+.footer-list{
+  background-color: $blue-social;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  ul{
+    li{
+      display: inline-block;
+      padding: 48px 0 41px 0;
+    }
+      li+li{
+        padding-left: 55px;
+      }
+      a{
+        font-size: 24px;
+        font-weight: 600;
+      }
+      a:hover{
+        color: #30bae7;
+    }
+  }
+}
+
+#form{
+  width: 78.36%;
+  margin: 0 auto;
+  margin-top: 45px;
+  .background{
+    background-color: $dark-blue;
+    border: $dark-blue;
+  }
+  label{
+    color: $white;
+    margin: 15px 20px;
+    display: inline-block;
+    span{
+      color: $asteriscos;
+    }
+  }
+  .containerForm{
+    width: 48%;
+    float: left;
+    input{
+      width: 100%;
+      height: 56px;
+      border-radius: 5px;
+    }  
+  }
+
+  .left{
+    padding-left: 4%;
+  }
+  textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+  }
+}

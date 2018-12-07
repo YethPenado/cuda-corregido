@@ -1,0 +1,73 @@
+@media (max-width: $breakpoint-sm){
+  @mixin button{
+    font-size: 16px;
+    padding: 20px 8.2%;
+  } 
+
+  .header .content, .footer{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo-menu{
+    padding-top: 15px;
+  }
+  .logo{
+    width: 25%;
+  }
+  .slogan{
+    font-size: 30px;
+  }
+  .slogan-text{
+    padding-top: 120px;
+  }
+  .button{
+    @include button;
+  }
+  .content{
+    h2{
+      padding-top: 60px;
+      font-size: $font-title;
+    }
+  }
+  .footer{
+    h2{
+      padding-top: 60px;
+      font-size: $font-title;
+    }
+    .button{
+      @include button;
+    }
+    .buttons{
+      padding-bottom: 60px;
+    }   
+  }
+
+  .footer-list{
+    ul{
+      li{
+        padding: 15px 0 15px 0; 
+      }
+      li+li{
+        padding-left: 10px;
+      }
+      a{
+        font-size: 1.2em;
+      }
+    }
+  }
+
+  #form{
+    .containerForm{
+      width: 100%;
+      float: left;
+      input{
+        width: 100%;
+        height: 56px;
+        border-radius: 5px;
+      }
+    }
+    .left{
+      padding-left: 0;
+    }
+  }
+}

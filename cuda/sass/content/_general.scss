@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+  color: white;
+}
+
+.container{
+  width: 100%;
+  overflow: hidden;
+}
+
+ul{
+  display: inline-block;
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+}
+
+a{
+  color: $white;
+  text-decoration: none;
+}
+
+.spacing{
+  max-width: 1100px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.center{
+  text-align: center;
+}
+
+.line{
+  width: 87px;
+  height: 4px;
+  margin: 0 auto;
+}
+
+.buttons{
+  margin: 0 auto;
+  padding-bottom: 145px;
+}
